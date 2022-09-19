@@ -77,6 +77,7 @@
 .debug .footer-bot{
     background-color: #7fffd4;
     height: 50px;
+    border: dashed;
 }
 
 /* 
