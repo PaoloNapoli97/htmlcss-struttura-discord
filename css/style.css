@@ -23,11 +23,13 @@
 .debug .header-top{
     background-color: #daa520;
     height: 50px;
+    border: dashed;
 }
 
 .debug .header-bot{
     background-color: #ee82ee;
     height: 500px;
+    border: dashed;
 }
 
 .debug section:nth-child(2n){
@@ -40,19 +42,36 @@
 
 .debug .container-big{
     background-color: #1e90ff;
+    border: dashed;
 }
 
 .debug .container-small{
     background-color: #ffc0cb;
+    border: dashed;
 }
 
 .debug .last-container{
     background-color: #228b22;
     height: 900px;
+    border: dashed;
 }
 
 .debug footer{
     background-color: #23272a;
+}
+
+.debug .footer-top{
+    height: 500px;
+}
+
+.debug .box-1{
+    background-color: #f08080;
+    border: dashed;
+}
+
+.debug .box-2{
+    background-color: #20b2aa;
+    border: dashed;
 }
 
 .debug .footer-bot{
@@ -116,6 +135,19 @@ section{
 
 footer{
     padding: 16px 0;
+}
+
+.footer-top{
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.box-1{
+    width: 25%;
+}
+
+.box-2{
+    width: 18.75%;
 }
 
 .footer-bot{
