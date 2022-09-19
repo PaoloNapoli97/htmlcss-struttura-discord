@@ -76,7 +76,16 @@
 
 .debug .footer-bot{
     background-color: #7fffd4;
-    height: 50px;
+    height: 60px;
+}
+
+.debug .logo-footer{
+    background-color: #ffb6c1;
+    border: dashed;
+}
+
+.debug .button{
+    background-color: #ffb6c1;
     border: dashed;
 }
 
@@ -149,6 +158,14 @@ footer{
 
 .box-2{
     width: 18.75%;
+}
+
+.logo-footer{
+
+}
+
+.button{
+    
 }
 
 .footer-bot{
