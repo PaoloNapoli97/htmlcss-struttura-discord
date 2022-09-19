@@ -30,6 +30,35 @@
     height: 500px;
 }
 
+.debug section:nth-child(2n){
+    background-color: #d3d3d3;
+}
+
+.debug .row{
+    height: 400px;
+}
+
+.debug .container-big{
+    background-color: #1e90ff;
+}
+
+.debug .container-small{
+    background-color: #ffc0cb;
+}
+
+.debug .last-container{
+    background-color: #228b22;
+    height: 900px;
+}
+
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .footer-bot{
+    background-color: #7fffd4;
+    height: 50px;
+}
 
 /* 
     COMMON
@@ -54,5 +83,44 @@ header{
 
 .background-bot{
     padding-top: 50px;
-    padding-bottom: 34px;
+    padding-bottom: 50px;
+}
+
+/* 
+    MAIN
+*/
+
+section{
+    padding: 40px;
+}
+
+.row{
+    display: flex;
+}
+
+.container-big{
+    width: 60%;
+}
+
+.container-small{
+    width: 40%;
+}
+
+.last-container{
+    width: 100%;
+}
+
+/* 
+    FOOTER
+*/
+
+footer{
+    padding: 16px 0;
+}
+
+.footer-bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
