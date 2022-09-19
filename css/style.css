@@ -1,0 +1,58 @@
+/* 
+    RESET
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    DEBUG
+*/
+
+.debug header{
+    background-color: #add8e6;
+}
+
+.debug .background-bot{
+    background-color: #00008b;
+}
+
+.debug .header-top{
+    background-color: #daa520;
+    height: 50px;
+}
+
+.debug .header-bot{
+    background-color: #ee82ee;
+    height: 500px;
+}
+
+
+/* 
+    COMMON
+*/
+
+.container{
+    max-width: 1200px;
+    margin: auto
+}
+
+header{
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.background-bot{
+    padding-top: 50px;
+    padding-bottom: 34px;
+}
